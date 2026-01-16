@@ -1,0 +1,21 @@
+{
+  "appId": "com.lexa.app",
+  "appName": "LEXA",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "PushNotifications": {
+      "presentationOptions": [
+        "badge",
+        "sound",
+        "alert"
+      ],
+      "android": {
+        "icon": "mipmap/ic_launcher",
+        "iconColor": "#0ea5e9"
+      }
+    }
+  }
+}
