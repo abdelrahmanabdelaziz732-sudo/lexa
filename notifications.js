@@ -3,7 +3,7 @@ import { getAuth } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth
 
 const db = getFirestore();
 const auth = getAuth();
-
+  
 let ptrStartY = 0;
 let ptrIsPulling = false;
 let ptrIsRefreshing = false;
