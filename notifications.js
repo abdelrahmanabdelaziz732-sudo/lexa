@@ -6,7 +6,7 @@ const auth = getAuth();
   
 let ptrStartY = 0;
 let ptrIsPulling = false;
-let ptrIsRefreshing = false;
+let ptrIsRefreshing = false; 
 
 const ptrElement = document.getElementById('pullToRefresh');
 const ptrIcon = document.getElementById('ptrIcon');
